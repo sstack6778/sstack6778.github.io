@@ -1,0 +1,59 @@
+body {
+
+
+				background-image: url("LifeBelowWater.jpg");
+				background-repeat: no-repeat;
+  				background-color: #cccccc;
+  				background-size: 100%;
+  				background-position: fixed;
+
+			}
+
+			p{
+				padding: 10px;
+
+			}
+
+
+			.header {
+				text-align: center;
+				position: fixed;
+				width: 100%;
+				height: 200px;
+				z-index: -1;
+			
+			}
+
+			.flex-container {
+				z-index:10;
+			  display: flex;
+			  flex-wrap: wrap;
+		
+			   justify-content: center;
+			}
+
+			.flex-container > div {
+			  background-color: #f1f1f1;
+			  margin: 10px;
+			  padding: 20px;
+			  font-size: 30px;
+			  width: 300px; /*Change this to suit your needs*/
+			  height: 300px; /*Change this to suit your needs*/
+			
+
+			}
+
+
+			.explaination{
+				background-color: white;
+				width: 100%;
+				
+				
+			}
+
+			.further-reading {
+				background-color: white;
+				width: 100%;
+				
+				
+			}
